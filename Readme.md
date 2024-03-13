@@ -12,6 +12,30 @@ This is the backend portion of our web application, built using JavaScript. Belo
 
 - **mongooseAggregatePaginate**: This is a plugin for Mongoose, our Object Data Modeling (ODM) library for MongoDB and Node.js. It enables efficient pagination of data retrieved through Mongoose's aggregation framework, allowing us to manage and display large datasets effectively.
 
+## Installation Instructions:
+
+1. **Clone the Repository**: 
+Replace `your/repository` with the URL of your GitHub repository.
+
+2. **Install Dependencies**: 
+This command will install all the required dependencies listed in the `package.json` file.
+
+3. **Environment Variables**:
+- Create a `.env` file in the root directory.
+- Define environment variables such as database connection URI, JWT secret key, etc.
+- Example:
+  ```
+  PORT=3000
+  DB_URI=<Your MongoDB Atlas Connection URI>
+  JWT_SECRET=<Your Secret Key for JWT>
+  ```
+
+4. **Start the Server**:
+This command will start the server. By default, it will run on port 3000, unless specified otherwise in the environment variables.
+
+5. **Verify Installation**:
+Once the server is running, you can test the endpoints using tools like Postman or by integrating with your frontend application.
+
 ## Additional Information:
 
 - **Model Link**: [Link to the model](https://app.eraser.io/workspace/vGobqnb6scZbLfZWzhdm?origin=share) (Include any relevant links or resources here.)
