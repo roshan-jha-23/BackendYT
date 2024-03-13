@@ -12,6 +12,15 @@ This is the backend portion of our web application, built using JavaScript. Belo
 
 - **mongooseAggregatePaginate**: This is a plugin for Mongoose, our Object Data Modeling (ODM) library for MongoDB and Node.js. It enables efficient pagination of data retrieved through Mongoose's aggregation framework, allowing us to manage and display large datasets effectively.
 
+- **Multer**: Multer is used for handling multipart/form-data, primarily used for file uploads. It allows us to handle file uploads securely and efficiently.
+
+- **Cloudinary**: Cloudinary is a cloud-based image and video management service. We use Cloudinary for storing and managing images uploaded by users. It offers features like image transformation, optimization, and storage.
+
+## Installation Instructions:
+
+1. **Clone the Repository**: 
+
+
 ## Installation Instructions:
 
 1. **Clone the Repository**: 
