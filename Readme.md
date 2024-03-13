@@ -35,6 +35,11 @@ This command will install all the required dependencies listed in the `package.j
 - Example:
   ```
   PORT=3000
+  MONGODB_URI
+  CLOUDINARY_API_SECRET
+  REFRESH_TOKEN_SECRET
+  REFRESH_TOKEN_EXPIRY
+  CLOUDINARY_API_KEY
   DB_URI=<Your MongoDB Atlas Connection URI>
   JWT_SECRET=<Your Secret Key for JWT>
   ```
