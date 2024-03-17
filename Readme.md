@@ -57,3 +57,6 @@ Once the server is running, you can test the endpoints using tools like Postman 
 - **Sample Image**: ![Sample Image](image.png) (You can provide a sample image or screenshot here, if applicable.)
 
 This README provides a brief overview of our backend setup, highlighting the key technologies and components used in our project. For more detailed information, please refer to our codebase.
+
+# postman
+[postman collection link what i have tested](https://www.postman.com/lunar-module-meteorologist-40782529/workspace/youtubelikebackend/collection/33197751-a4f7d08f-6131-4b1b-940a-0a83361d93a5?action=share&creator=33197751)
