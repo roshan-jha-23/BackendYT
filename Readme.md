@@ -62,3 +62,4 @@ This README provides a brief overview of our backend setup, highlighting the key
 [postman collection link what i have tested](https://www.postman.com/lunar-module-meteorologist-40782529/workspace/youtubelikebackend/collection/33197751-a4f7d08f-6131-4b1b-940a-0a83361d93a5?action=share&creator=33197751)
 ![DB on MOngo ](image-1.png)
 ![on Postman](image-2.png)
+![postman testing](<Screenshot 2024-03-19 031354.png>) ![postman testing](<Screenshot 2024-03-19 035338.png>) ![postman testing](<Screenshot 2024-03-19 021725.png>) ![postman testing](<Screenshot 2024-03-19 022505.png>) ![postman testing](<Screenshot 2024-03-19 023656.png>)
