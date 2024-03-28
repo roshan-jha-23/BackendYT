@@ -55,6 +55,8 @@ Once the server is running, you can test the endpoints using tools like Postman 
 - **Model Link**: [Link to the model](https://app.eraser.io/workspace/vGobqnb6scZbLfZWzhdm?origin=share) (Include any relevant links or resources here.)
 
 - **Sample Image**: ![Sample Image](image.png) (You can provide a sample image or screenshot here, if applicable.)
+- ![image](https://github.com/roshan-jha-23/BackendYT/assets/141396860/2704a885-27ac-42c4-ab32-284891920d67)
+
 
 This README provides a brief overview of our backend setup, highlighting the key technologies and components used in our project. For more detailed information, please refer to our codebase.
 
