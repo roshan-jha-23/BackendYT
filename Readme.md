@@ -52,7 +52,9 @@ Once the server is running, you can test the endpoints using tools like Postman 
 
 ## Additional Information:
 
-- **Model Link**: [Link to the model](https://app.eraser.io/workspace/vGobqnb6scZbLfZWzhdm?origin=share) 
+- **Model Link**: [Link to the model](https://app.eraser.io/workspace/vGobqnb6scZbLfZWzhdm?origin=share)
+- ![image](https://github.com/roshan-jha-23/BackendYT/assets/141396860/be8a6c32-f4f1-4faf-a163-795441449a32)
+
 
 
 - ![image](https://github.com/roshan-jha-23/BackendYT/assets/141396860/2704a885-27ac-42c4-ab32-284891920d67)
