@@ -81,17 +81,32 @@ const publishAVideo = asyncHandler(async (req, res) => {
     throw new ApiError(400, "Title and Description are required fields!");
   }
 
-  const videoLocalPath = req.files?.video[0]?.path;
-  const thumbnailLocalPath = req.files?.thumbnail[0]?.path;
-  if (!videoLocalPath || !thumbnailLocalPath) {
-    throw new ApiError(400, "Video  && Thumbnail is required");
+  const videoFiles = req.files?.video;
+  const thumbnailFiles = req.files?.thumbnail;
+
+  if (
+    !videoFiles ||
+    !thumbnailFiles ||
+    videoFiles.length === 0 ||
+    thumbnailFiles.length === 0
+  ) {
+    throw new ApiError(400, "Video and Thumbnail are required");
   }
+
+  const videoLocalPath = videoFiles[0]?.path;
+  const thumbnailLocalPath = thumbnailFiles[0]?.path;
+
+  if (!videoLocalPath || !thumbnailLocalPath) {
+    throw new ApiError(400, "Video and Thumbnail paths are required");
+  }
+
   const videoFile = await uploadOnCloudinary(videoLocalPath);
   const thumbnail = await uploadOnCloudinary(thumbnailLocalPath);
 
   if (!videoFile || !thumbnail) {
-    throw new ApiError(400, "Avatar is required");
+    throw new ApiError(400, "Failed to upload Video or Thumbnail");
   }
+
   const video = await Video.create({
     title,
     description,
@@ -103,13 +118,16 @@ const publishAVideo = asyncHandler(async (req, res) => {
     duration: videoFile.duration,
     owner: req.user?._id,
   });
+
   if (!video) {
-    throw new ApiError(400, "Something went error");
+    throw new ApiError(400, "Failed to create Video entry");
   }
+
   return res
     .status(201)
     .json(new ApiResponse(200, video, "Video has been published"));
 });
+
 
 const getVideoById = asyncHandler(async (req, res) => {
   const { videoId } = req.params;
