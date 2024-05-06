@@ -40,8 +40,7 @@ This command will install all the required dependencies listed in the `package.j
   REFRESH_TOKEN_SECRET
   REFRESH_TOKEN_EXPIRY
   CLOUDINARY_API_KEY
-  DB_URI=<Your MongoDB Atlas Connection URI>
-  JWT_SECRET=<Your Secret Key for JWT>
+  DB_URI=<Your MongoDB Atlas Connection URI
   ```
 
 4. **Start the Server**:
