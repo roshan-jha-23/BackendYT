@@ -61,7 +61,7 @@ Once the server is running, you can test the endpoints using tools like Postman 
 - ![image](https://github.com/roshan-jha-23/BackendYT/assets/141396860/2704a885-27ac-42c4-ab32-284891920d67)
 
 
-This README provides a brief overview of our backend setup, highlighting the key technologies and components used in our project. For more detailed information, please refer to our codebase.
+This README provides a brief overview of our backend setup, highlighting the key technologies and components used in our project. For more detailed information, please refer to our codebase..
 
 # postman
 [postman collection link what i have tested](https://www.postman.com/lunar-module-meteorologist-40782529/workspace/youtubelikebackend/collection/33197751-a4f7d08f-6131-4b1b-940a-0a83361d93a5?action=share&creator=33197751)
